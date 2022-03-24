@@ -1,0 +1,58 @@
+header , main{
+  width:95%;
+  margin:20% auto;
+}
+header button{
+  display:block;
+  width:100%;
+  height:80px;
+  background-color: gray;
+  margin-top:50px;
+  border-radius:30px;
+  font-size:26px;
+}
+#reBtn{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:25px;
+  border:1px solid rgb(250, 153, 153);
+  background-color: rgb(250, 153, 153);
+  color:white;
+  font-size:30px;
+  text-align: center;
+  opacity:0.5;
+}
+#reBtn:hover{
+  opacity:1;
+  background-color: rgb(250, 43, 43);
+}
+
+#start , #add , #edit{
+  margin:28px auto;
+}
+#add{
+  background-color: rgb(227, 241, 253);
+  padding:18px;
+  border-radius:18px;
+}
+#add input , #add textarea{
+  display:block;
+  margin:auto;
+  width:95%;
+  border:none;
+  font-size:17px;
+  border-radius:10px;
+  height:30px;
+}
+#add textarea{
+  margin:auto;
+  height:150px;
+  resize:none;
+}
+#add input[type="submit"]{
+  margin-top:32px;
+  padding:10px 0;
+  background-color: rgb(146, 146, 252);
+}
